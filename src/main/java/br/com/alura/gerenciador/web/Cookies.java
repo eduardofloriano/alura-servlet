@@ -15,7 +15,7 @@ public class Cookies {
 
 		if (cookies != null) {
 			for (Cookie cookie : cookies) {
-				if (cookie.getName().equals("usuario.logado")) {
+				if (cookie.getName().equals("usuarioLogado")) {
 					return cookie;
 				}
 			}
